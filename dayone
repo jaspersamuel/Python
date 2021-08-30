@@ -1,0 +1,9 @@
+n=int(input())
+if n==0:
+    print("0")
+elif n in range(1,10):
+    print("10")
+elif n in range(11,20):
+    print("15")
+else:
+    print("1")
