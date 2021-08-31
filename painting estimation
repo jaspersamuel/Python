@@ -1,0 +1,8 @@
+print("Welcome to painting estimation")
+interior_wall= int(input("kindly tell the sqm of interior wall"))
+exterior_wall= int(input("kindly tell the sqm of exterior wall"))
+if interior_wall==0 or exterior_wall==0:
+    print("We need both the values")
+else:
+    print((interior_wall)*10+(exterior_wall)*12)
+    print("Thank you for using our site")
