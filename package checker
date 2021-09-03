@@ -1,0 +1,9 @@
+total_packages =100
+total_packages_you_want=int(input())
+if total_packages_you_want in range(1,99):
+    print('No of packages sold:',total_packages_you_want)
+    print('Total no of candies:',total_packages-total_packages_you_want)
+else:
+    print("Invalid Input")
+    print('No of packages left:',total_packages)
+    
