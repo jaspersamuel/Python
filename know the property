@@ -1,0 +1,9 @@
+floor1=["10 houses","2BHK=2","3BHK=8"]
+floor2=["15 houses","2BHK=10","3BHK=5"]
+n=int(input("Enter floor number to know more about it"))
+if n==1:
+    print(floor1)
+elif n==2:
+    print(floor2)
+else:
+    print("The project is under construction kindly check back")
