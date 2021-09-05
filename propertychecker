@@ -1,0 +1,8 @@
+print("Currently Two floors completed ")
+floor=int(input("Enter the floor you wish"))
+if floor==1:
+    print("No of flats=10\n No of 2BHK=4")
+elif floor==2:
+      print('No of flats=8\nNo of 2BHK=5')
+else:
+    print("There are only 2 floors")
