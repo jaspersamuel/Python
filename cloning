@@ -1,0 +1,7 @@
+def cloning(a):
+    a_copy=a[:]
+    return a
+a=[2,2,3]
+b=cloning(a)
+print("original list:",a)
+print("duplicate list:",b)
