@@ -1,0 +1,20 @@
+age=21
+skills=["AdobeXD,Figma,HTML,CSS,Python,Microsoft Office,AutoCAD,Sketchup"]
+extra_curricular=["Entrepreneurship Development Cell coordinator,Placement Cell Coordinator"]
+certifications=["Foundations of UX design from Google,IBM Design Thinking Practioner,AdobeXD,Figma,Python basics"] 
+online_profiles=["LinkedIn/Jasper Samuel J,Github/jaspersamuel"]
+name=input("Want to know more about Jasper Samuel?")
+if name=="yes":
+    print("Great you can know about his skills,certifications etc")
+else:
+    print("Okay fine have a great day!")
+    if name=="skills":
+        print("skills")
+    elif name=="extra_curricular":
+        print("extra_curricular")
+    elif name=="certification":
+        print("certifications")
+    elif name=="online profiles":
+        print("online profiles ")
+    else:
+        print("sorry there is no other things to display right now")
