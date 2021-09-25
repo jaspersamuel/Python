@@ -1,0 +1,11 @@
+total_persons_allowed=["12"]
+total_floors=["1,2,3,4,5"]
+floor=int(input("Enter the floor number:"))
+if floor==6:
+        print("There are only five floors in this building")
+else:
+    print("Welocome to the super fast elevator")
+if total_persons_allowed==13:
+    print("overload")
+else:
+    print("No overload")
