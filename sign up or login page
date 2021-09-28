@@ -1,0 +1,9 @@
+email_value=input("Enter your mail id")
+password_value=input("Enter your password")
+if email_value=="abc@abc.com":
+    if password_value=="abcd":
+        print("Welcome to the page")
+    else:
+          print("invalid password")
+else:
+          print("invalid mail id")
