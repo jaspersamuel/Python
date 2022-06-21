@@ -1,0 +1,12 @@
+class recipe():
+    def __init__(self, dish, items, time) -> None:
+        self.dish = dish
+        self.items = items
+        self.time = time
+
+    def contents(self) -> str:
+        print("the"+self.dish+"contains:"+self.items+"and takes"+ self.time +"minutes to cook")
+pizza=recipe("pizza","cheese,sauce,tomato","30")
+pasta=recipe("pasta","cheese,sauce,tomato","35")
+
+print(pizza.contents())
